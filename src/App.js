@@ -6,6 +6,7 @@
  */
 import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
 
 /**
  * Abaixo nós criamos uma função chamado App,vale fazer uma 
@@ -21,32 +22,74 @@ import './App.css';
  * minúscula.
  */
 
-function App() {
+export function App() {
   return (
     /**
      * Nota que essa função retorna HTML, ou seja, aqui vemos 
      * na prática o jsx em uso, que nada mais é do que Java 
      * Script com arquivo xml tudo junto e misturado
      * 
-     * @obsevation O React não é uma linguagem de programação, más ele é uma biblioteca que permite a criação de aplicações web usando uma linguagem de programação JavaScript, toda vez que utilizamos java script dentro do arquivo html em react, temos que colocar o código dentro de chaves, como podemos ver abaixo a tag img que está utilizando a variável { logo }, também vale pontuar que diferente do html que utilizamos apenas <div class="nome da classe", em React temos que adicional o Name na frente do class, como podemos ver abaixo, isso acontece por que a palavra class é uma palavra reservada do js, por isso temos que colocar o nome da classe em letra minúscula juntamente com Name.
+     * @obsevation O React não é uma linguagem de 
+     * programação, más ele é uma biblioteca que permite a 
+     * criação de aplicações web usando uma linguagem de 
+     * programação JavaScript, toda vez que utilizamos java 
+     * script dentro do arquivo html em react, temos que 
+     * colocar o código dentro de chaves, como podemos ver 
+     * abaixo a tag img que está utilizando a variável { logo 
+     * }, também vale pontuar que diferente do html que 
+     * utilizamos apenas <div class="nome da classe", em 
+     * React temos que adicional o Name na frente do class, 
+     * como podemos ver abaixo, isso acontece por que a 
+     * palavra class é uma palavra reservada do js, por isso 
+     * temos que colocar o nome da classe em letra minúscula 
+     * juntamente com Name.
      */
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hello World, i am App created with function!</h1>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
       </header>
     </div>
   );
 }
 
-export default App;
+//export default App;
+
+/**
+ * Uma outra maneira de criar um componente é utilizando o 
+ * método class, nesse caso muda um pouco, pois temos que 
+ * importar um componente do react, e também temos que criar 
+ * uma classe, e também temos que exportar o componente.
+ */
+
+export class App2 extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>
+            Hello World, i am App2 created with class!
+          </h1>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+      </div>
+    );
+  }
+}
+
