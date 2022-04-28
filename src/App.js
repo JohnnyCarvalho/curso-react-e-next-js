@@ -75,20 +75,30 @@ export class App2 extends Component {
    * Vamos trabalhar com estados em classes, vejamos o código 
    * a seguir:
    */
-  constructor(props) {
-    super(props);
-    this.handleChange = this.handleChange.bind(this);
-    
-
-    this.state = { name: 'Johnny Carvalho' };
-  }
-
-  handleChange(event) {
+  state = { 
+    name: 'Johnny Carvalho',
+    counter: 0 };
+  
+  /**
+   * Toda vez que precisarmos utilizar o this, é recomendado 
+   * que utilizamos uma arrow function para não precisar 
+   * utilizar o bind.
+   */
+  handleChange = () => {
     this.setState({ name: 'Bruna Carvalho' });
   }
 
+  handleAClick = (event) => {
+    event.preventDefault();
+    const { counter } = this.state;
+    this.setState({ counter: counter + 1 });
+    
+  }
+
+
+
   render() {
-    const { name } = this.state;
+    const { name, counter } = this.state;
 
     return (
       <div className="App">
@@ -97,15 +107,15 @@ export class App2 extends Component {
           <h1>
             Hello World, i am App2 created with class!
           </h1>
-          <p onClick={this.handleChange}> My name is {name} </p>
+          <p onClick={this.handleChange}> My name is {name} { counter } </p>
           <a
-            onClick={this.handleCount}
+            onClick={this.handleAClick}
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Next
           </a>
         </header>
       </div>
