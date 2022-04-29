@@ -50,8 +50,16 @@ export class ArrayStates extends Component {
         return (
             <div className="App">
                 {posts.map(
-                    posts => <h1>{posts.title}</h1>
-                )}
+                    //posts => <h1>{posts.title}</h1> *** forma errada ***
+
+                    // forma correta usando key.
+                    posts => (
+                    <div key={posts.id}>
+                        <h1>{posts.title}</h1>
+                        <h2>{posts.body}</h2>
+                    </div>
+
+                ))}
             </div>
         );
     }
