@@ -12,7 +12,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Styles/index.css';
-import reportWebVitals from './reportWebVitals';
+
 //import {App, App} from './Pages/001-App';
 //import { ArrayStates } from './Pages/002-ArrayStates';
 import { LifeCircle, LifeCircle2 } from './Pages/003-LifeCircle';
@@ -24,5 +24,3 @@ root.render(
     <LifeCircle2 />
   </React.StrictMode>
 );
-
-reportWebVitals();

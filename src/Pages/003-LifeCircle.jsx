@@ -1,11 +1,9 @@
 /**
  * @author Johnny Carvalho
- * 
  * Life circle methods é uma das mais importantes coisas que
  * você vai aprender ao aprender React. Ela é um método que 
  * é chamado quando o componente é renderizado, e é o método
  * que você vai aprender ao aprender React.
- * 
  */
 
 import '../Styles/App.css';
@@ -114,7 +112,7 @@ export class LifeCircle2 extends Component {
         this.timeoutUpdate = setTimeout(() => {
             this.setState({ posts, counter: counter+1 });
             
-        }, 2000);
+        }, 1000);
     }
 
 
