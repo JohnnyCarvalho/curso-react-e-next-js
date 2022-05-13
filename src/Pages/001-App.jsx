@@ -30,15 +30,17 @@ export function App() {
      * Script com arquivo xml tudo junto e misturado
      * 
      * @obsevation O React não é uma linguagem de 
-     * programação, más ele é uma biblioteca que permite a 
+     * programação, ele é uma biblioteca que permite a 
      * criação de aplicações web usando uma linguagem de 
-     * programação JavaScript, toda vez que utilizamos java 
+     * programação JavaScript e HTML juntas dando a possibilidade de incluir
+     * lógica em formulários por exemplo, dando efeitos bonitos e
+     * modernos para a aplicação, toda vez que utilizamos java 
      * script dentro do arquivo html em react, temos que 
      * colocar o código dentro de chaves, como podemos ver 
-     * abaixo a tag img que está utilizando a variável { logo 
+     * abaixo, a tag img que está utilizando a variável { logo 
      * }, também vale pontuar que diferente do html que 
      * utilizamos apenas <div class="nome da classe", em 
-     * React temos que adicional o Name na frente do class, 
+     * React temos que adicional o Name depois do class, 
      * como podemos ver abaixo, isso acontece por que a 
      * palavra class é uma palavra reservada do js, por isso 
      * temos que colocar o nome da classe em letra minúscula 

@@ -15,12 +15,12 @@ import './Styles/index.css';
 
 //import {App, App} from './Pages/001-App';
 //import { ArrayStates } from './Pages/002-ArrayStates';
-import { LifeCircle, LifeCircle2 } from './Pages/003-LifeCircle';
+//import { LifeCircle, LifeCircle2 } from './Pages/003-LifeCircle';
+import { BuscandoDadosExternos } from './Pages/004-BuscandoDadosExternos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LifeCircle />
-    <LifeCircle2 />
+    < BuscandoDadosExternos />
   </React.StrictMode>
 );
