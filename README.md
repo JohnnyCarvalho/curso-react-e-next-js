@@ -27,10 +27,12 @@
 </h4>
 
 ---------------------------------------------------------------------------------------------------------------------------------
-<p>
+
     <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - React (O Básico) <br>
+```
     Essa é uma seção introdutória ao React. Voltada para quem nunca usou o React na vida mas tem conhecimento intermediário em HTML, CSS e JavaScript. Nela vamos explorar os componentes de classe e alguns lifecycle methods. Isso é importante para que você entenda como os React Hooks funcionam por baixo dos panos. Vamos consumir uma API com dados falsos e fazer deploy da nossa aplicação a fim de termos nosso site "no ar".
-</p>
+```
+
 <p>
     <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Mock Service Worker e testes para <Home /> (Testes avançados)<br>
     Nessa seção vamos testar o nosso componente mais complexo criado na seção anterior, a <Home />. Este componente usa vários outros componentes, fetch API para buscar dados, tem efeitos colaterais (useEffect) e várias ações que podem ocorrer na página. Por este motivo, vamos usar Mock Service Worker, Jest e Testing Library para testar as requisições que obtém dados externos para popular o componente. É uma seção pequena, mas bastante divertida e avançada, com muito conhecimento para você.
