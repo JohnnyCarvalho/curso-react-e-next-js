@@ -18,13 +18,14 @@
  porém estou deixando uma breve explicação de cada uma das seções presentes no curso abaixo.
 ```
 
-<!--<h2>
+<h2>
   Etapas do curso e status das mesmas:
 </h2>
 <h4>
-<img align="center" height="20" width="20" src="./assets/img/ok.png"> - Concluído. <br>
-<img align="center" height="20" width="20" src="/src/img/loading.gif"> - Em andamento.
+<img align="center" height="20" width="20" src="./src/assets/img/ok.png"> - Concluído. <br>
+<img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Em andamento.
 </h4>
+<!--
 ---------------------------------------------------------------------------------------------------------------------------------
 <p>
     <img align="center" height="20" width="20" src="./img/ok.png"> - Introdução ao C# e .Net Core.
