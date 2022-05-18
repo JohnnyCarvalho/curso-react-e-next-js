@@ -5,7 +5,7 @@
   Tecnologias envolvidas no curso <br>
   <img align="center" alt="Johnny-Python" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 
-  <img align="center" alt="Johnny-Python" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
+  <img align="center" alt="Johnny-Python" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
 </h2>
 
 ```
