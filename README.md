@@ -55,10 +55,15 @@ com muito conhecimento para você.
 
 <p>
     <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Reack Hooks (Teoria e hooks avançados) <br>
-    Essa é uma seção apresentando os hooks mais importantes do React. Nela vamos usar componentes funcionais e entender como funcionam os hooks useState, useEffect, useCallback, useMemo, useRef, useContext e Context API e useReducer.
-
-    Nessa seção introduziremos a Context API e os hooks useContext e useReducer, que podem ser usados para funcionarem de maneira similar ao Redux, para criar estados globais na aplicação.
 </p>
+
+````
+Essa é uma seção apresentando os hooks mais importantes do React. Nela vamos usar componentes 
+funcionais e entender como funcionam os hooks useState, useEffect, useCallback, useMemo, useRef, 
+useContext e Context API e useReducer. Nessa seção introduziremos a Context API e os hooks useContext 
+e useReducer, que podem ser usados para funcionarem de maneira similar ao Redux, para criar estados globais na aplicação.
+````
+
 
 <p>
     <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Roteamento com React Router Dom <br>
