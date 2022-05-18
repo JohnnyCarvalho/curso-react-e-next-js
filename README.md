@@ -18,7 +18,7 @@
  porém estou deixando uma breve explicação de cada uma das seções presentes no curso abaixo.
 ```
 
-<h2>
+<!--<h2>
   Etapas do curso e status das mesmas:
 </h2>
 <h4>
@@ -96,4 +96,4 @@
 
 <h1 align="center">
     Fim do Curso.
-</h1>
+</h1> -->
