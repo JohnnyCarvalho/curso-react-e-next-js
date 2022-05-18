@@ -25,76 +25,62 @@
 <img align="center" height="20" width="20" src="./src/assets/img/ok.png"> - Concluído. <br>
 <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Em andamento.
 </h4>
-<!--
+
 ---------------------------------------------------------------------------------------------------------------------------------
 <p>
-    <img align="center" height="20" width="20" src="./img/ok.png"> - Introdução ao C# e .Net Core.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - React (O Básico)
+</p>
+<p>
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Mock Service Worker e testes para <Home /> (Testes avançados)
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Recapitulação de lógica de programação em C#.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Reack Hooks (Teoria e hooks avançados)
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Classes, atributos, métodos e membros estáticos.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Roteamento com React Router Dom
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Construtores, palavra this, sobrecarga e enapsulamento.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Landing pages com Strapi e MongoDB (Back-end)
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Comportamento de memória, arrays e listas.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Landing pages com React (Front-end)
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Tópicos especiais em C# parte 1 (funcões interessantes dentre outros)
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Projeto 1: Landing pages - Deploy
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Nivelamento Git e GitHub.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Next.Js com SSR, SSG e ISR (ou ISG)
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Enumerações e composição.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Migrando o Next.js para TypeScript
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Herança e polimorfismo.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Usando create-next-app com --example
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Tratamento e excessões.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Projeto 2: Blog - Back-End com Strapi
+</p>
+<p>
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Autenticação de usuários com Strapi
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Projeto 1: sistema de jogo de xadrez.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - GraphQL Mutations com Strapi
 </p>
 
 <p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Trabalhando com arquivos.
-</p>
-
-<p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Interfaces.
-</p>
-
-<p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Generics, Set, Dictionary.
-</p>
-
-<p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Tópicos especiais em C# parte 2 (Extension methods).
-</p>
-
-<p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Expressões lambda, delegates, LINQ.
-</p>
-
-<p>
-    <img align="center" height="20" width="20" src="./img/ZZ5H.gif"> - Projeto 2: sistema WEB com ASP .NET Core MVC e Entity Framework.
+    <img align="center" height="20" width="20" src="/src/assets/img/loading.gif"> - Autenticação de usuários com Next.js e NextAuth.js
 </p>
 
 <h1 align="center">
     Fim do Curso.
-</h1> -->
+</h1>
