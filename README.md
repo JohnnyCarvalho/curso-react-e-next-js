@@ -9,12 +9,13 @@
 </h2>
 
 ```
- Curso de React.Js + Next.Js completo do básico ao avançado. Vamos aprender ReactJS, NextJS, Styled-Components, 
- testes com Jest e Testing Library, Storybook, Server-Side Rendering e demais siglas (SSR, SSG, ISR, CSR, SPA, PWA, etc...) no front-end.
+ Curso de React.Js + Next.Js completo do básico ao avançado. Vamos aprender ReactJS, 
+ NextJS, Styled-Components, testes com Jest e Testing Library, Storybook, Server-Side 
+ Rendering e demais siglas (SSR, SSG, ISR, CSR, SPA, PWA, etc...) no front-end.
  Vamos aprender também, Strapi para criarmos APIs de back-end.
 
-Vamos usar muitas ferramentas que não foram mencionadas nessa descrição, porém estou deixando uma breve explicação 
-de cada uma das seções presentes no curso abaixo.
+ Vamos usar muitas ferramentas que não foram mencionadas nessa descrição, 
+ porém estou deixando uma breve explicação de cada uma das seções presentes no curso abaixo.
 ```
 
 <h2>
