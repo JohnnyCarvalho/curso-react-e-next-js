@@ -42,13 +42,13 @@ export class BuscandoDadosExternos extends Component {
         return (
             <section className='container'>
                 <div className='posts'>
-                    {posts.map(posts => (
+                    {posts.map(post => (
                         <div className='post'>
                             <img src={post.cover} alt={post.title} />
-                            <div key={posts.id} className="post-content">
+                            <div key={post.id}className="post-content">
                                 <br />
-                                <h1>{posts.title}</h1>
-                                <p>{posts.body}</p>
+                                <h1>{post.title}</h1>
+                                <p>{post.body}</p>
                             </div>
                         </div>
                     )

@@ -1,6 +1,8 @@
 .container {
+  padding: 30px;
+  margin: 0 auto;
   min-height: 100vh;
-  background: #eee;
+  background-color: #444;
 }
 
 .posts {
@@ -10,13 +12,21 @@
 }
 
 .post {
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #333;
   border-radius: 10px;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
+  box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.5);
+  color: #ccc;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.post:hover {
+  transform: scale(1.05);
+}
+
+.post img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .post-content{
