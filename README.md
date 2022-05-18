@@ -32,13 +32,11 @@
 </p>
 
 ```
-Essa é uma seção introdutória ao React. Voltada para quem nunca 
-usou o React na vida mas tem conhecimento intermediário em HTML, 
-CSS e JavaScript. Nela vamos explorar os componentes de classe e 
-alguns lifecycle methods. Isso é importante para que você entenda 
-como os React Hooks funcionam por baixo dos panos. Vamos consumir 
-uma API com dados falsos e fazer deploy da nossa aplicação a fim de 
-termos nosso site "no ar".
+Essa é uma seção introdutória ao React. Voltada para quem nunca usou o React na vida mas 
+tem conhecimento intermediário em HTML, CSS e JavaScript. Nela vamos explorar os componentes 
+de classe e alguns lifecycle methods. Isso é importante para que você entenda como os React 
+Hooks funcionam por baixo dos panos. Vamos consumir uma API com dados falsos e fazer deploy 
+da nossa aplicação a fim de termos nosso site "no ar".
 ```
 
 <p>
