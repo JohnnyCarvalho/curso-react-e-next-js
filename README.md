@@ -9,9 +9,12 @@
 </h2>
 
 ```
- Curso C# completo de orientação a objetos e com projetos.
- Nesse curso iremos aprende os conceitos fundamentais da programação orientada a objetos
- e vamos elaborar alguns projetos para fixação do conteúdo.
+ Curso de React.Js + Next.Js completo do básico ao avançado. Vamos aprender ReactJS, NextJS, Styled-Components, 
+ testes com Jest e Testing Library, Storybook, Server-Side Rendering e demais siglas (SSR, SSG, ISR, CSR, SPA, PWA, etc...) no front-end.
+ Vamos aprender também, Strapi para criarmos APIs de back-end.
+
+Vamos usar muitas ferramentas que não foram mencionadas nessa descrição, porém estou deixando uma breve explicação 
+de cada uma das seções presentes no curso abaixo.
 ```
 
 <h2>
