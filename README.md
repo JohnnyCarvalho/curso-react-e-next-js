@@ -44,7 +44,12 @@ da nossa aplicação a fim de termos nosso site "no ar".
 </p>
 
 ````
-Nessa seção vamos testar o nosso componente mais complexo criado na seção anterior, a <Home />. Este componente usa vários outros componentes, fetch API para buscar dados, tem efeitos colaterais (useEffect) e várias ações que podem ocorrer na página. Por este motivo, vamos usar Mock Service Worker, Jest e Testing Library para testar as requisições que obtém dados externos para popular o componente. É uma seção pequena, mas bastante divertida e avançada, com muito conhecimento para você.
+Nessa seção vamos testar o nosso componente mais complexo criado na seção anterior, a Home. 
+Este componente usa vários outros componentes, fetch API para buscar dados, tem efeitos 
+colaterais (useEffect) e várias ações que podem ocorrer na página. Por este motivo, vamos 
+usar Mock Service Worker, Jest e Testing Library para testar as requisições que obtém dados 
+externos para popular o componente. É uma seção pequena, mas bastante divertida e avançada, 
+com muito conhecimento para você.
 ````
 
 
