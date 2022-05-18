@@ -22,7 +22,7 @@
   Etapas do curso e status das mesmas:
 </h2>
 <h4>
-<img align="center" height="20" width="20" src="/src/img/ok.png"> - Concluído. <br>
+<img align="center" height="20" width="20" src="./assets/img/ok.png"> - Concluído. <br>
 <img align="center" height="20" width="20" src="/src/img/loading.gif"> - Em andamento.
 </h4>
 ---------------------------------------------------------------------------------------------------------------------------------
