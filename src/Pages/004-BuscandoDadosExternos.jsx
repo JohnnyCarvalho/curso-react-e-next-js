@@ -58,23 +58,3 @@ export class BuscandoDadosExternos extends Component {
         )
     }
 }
-
-/**
- * 
-            {
-                id: 'Johnny',
-                title: 'Texto de Johnny',
-                body: 'The body 1'
-            },
-            {
-                id: 'Bruna',
-                title: 'Texto de Bruna',
-                body: 'The body 2'
-            },
-            {
-                id: 'João',
-                title: 'Texto de João',
-                body: 'The body 3'
-            }
-        
- */
