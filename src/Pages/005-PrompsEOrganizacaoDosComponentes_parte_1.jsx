@@ -1,7 +1,8 @@
 /**
  * @author Johnny Carvalho
  * 
- * Nessa aula vamos aprender como fazer uma busca em uma API externa.
+ * Nessa aula vamos aprender o básico de utilização 
+ * de componentes no código
  * 
  */
 

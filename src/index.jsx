@@ -17,11 +17,12 @@ import './Styles/index.css';
 //import { ArrayStates } from './Pages/002-ArrayStates';
 //import { LifeCircle, LifeCircle2 } from './Pages/003-LifeCircle';
 //import { BuscandoDadosExternos } from './Pages/004-BuscandoDadosExternos';
-import { OrganizacaoDosComponentes1 } from './Pages/005-PrompsEOrganizacaoDosComponentes_parte_1';
+//import { OrganizacaoDosComponentes1 } from './Pages/005-PrompsEOrganizacaoDosComponentes_parte_1';
+import { OrganizacaoDosComponentes2 } from './Pages/006-PropsEOrganizacaoDosComponentes_parte_2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    < OrganizacaoDosComponentes1 />
+    < OrganizacaoDosComponentes2 />
   </React.StrictMode>
 );
