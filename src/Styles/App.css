@@ -5,30 +5,3 @@
   background-color: #444;
 }
 
-.posts {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
-}
-
-.post {
-  background: #333;
-  border-radius: 10px;
-  box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.5);
-  color: #ccc;
-
-  transition: transform 0.3s ease-in-out;
-}
-
-.post:hover {
-  transform: scale(1.05);
-}
-
-.post img {
-  max-width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-
-.post-content{
-  padding: 30px;
-}
