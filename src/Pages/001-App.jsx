@@ -5,7 +5,7 @@
  * Primeiramente nós importamos algumas funcionalidades que serão exibidas ou utilizadas em nossa aplicação. 
  */
 import logo from '../Img/logo.svg';
-import '../Styles/App.css';
+import './Styles/App.css';
 import { Component } from 'react';
 
 /**

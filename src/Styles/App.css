@@ -1,7 +1,12 @@
 .container {
-  padding: 30px;
-  margin: 0 auto;
-  min-height: 100vh;
-  background-color: #444;
-}
+    padding: 30px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #444;
+  }
 
+  .button-containner{
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+  }
