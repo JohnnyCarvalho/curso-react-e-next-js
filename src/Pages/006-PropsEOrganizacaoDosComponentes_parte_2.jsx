@@ -23,7 +23,7 @@
          posts: [],
          allPosts: [],
          page: 0,
-         postsPerPage: 3
+         postsPerPage: 9
      };
  
      async componentDidMount() {
@@ -56,7 +56,8 @@
      }
  
      render() {
-         const { posts } = this.state;
+         const { posts, page, postsPerPage, allPosts } = this.state;
+         const noMorePosts = page + postsPerPage >= allPosts.length;
  
          return (
              <section className='container'>
@@ -66,6 +67,7 @@
                      <Button
                          text="Load more posts"
                          onClick={this.loadMorePosts}
+                         disabled={noMorePosts}
                      />
                  </div>
              </section>
