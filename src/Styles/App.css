@@ -10,3 +10,12 @@
     display: flex;
     align-items: flex-end;
   }
+
+  .search-containner {
+    margin-bottom: 30px;
+    color: #ccc;
+  }
+
+  .filter-containner h4{
+    color: red;
+  }

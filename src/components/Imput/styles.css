@@ -1,0 +1,14 @@
+.text-input {
+    width: 100%;
+    font-size: 30px;
+    padding: 5px, 10px;
+    background-color: #ccc;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.text-input:hover {
+    transform: scale(1.03);
+}
