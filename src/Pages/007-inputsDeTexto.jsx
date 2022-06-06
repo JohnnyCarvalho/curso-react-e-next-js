@@ -1,6 +1,15 @@
+/**
+ * @author Johnny Carvalho
+ * 
+ * Nessa aula iremos aprender como inserir um mecanismo de busca 
+ * em nossa pagina de posts.
+ * 
+ */
+
 import '../Styles/App.css';
 
 import { Component } from 'react';
+
 
 import { loadPosts } from '../Utils/load-posts'
 import { Posts } from '../components/Posts/index.jsx'
@@ -62,6 +71,7 @@ export class InputDeTexto extends Component {
                     searchValue.toLowerCase()
                 );
             })
+
             : posts;
 
         return (
@@ -73,6 +83,7 @@ export class InputDeTexto extends Component {
                             <h1>Search value: {searchValue}</h1>
                             <br />
                         </>
+
                     )}
 
                     <TextInput searchValue={searchValue} handleChange={this.handleChange} />
@@ -96,6 +107,7 @@ export class InputDeTexto extends Component {
                         />
                     )}
                 </div>
+
             </section>
         )
     }
