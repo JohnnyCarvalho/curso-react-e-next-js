@@ -19,11 +19,12 @@ import './Styles/index.css';
 //import { BuscandoDadosExternos } from './Pages/004-BuscandoDadosExternos';
 //import { OrganizacaoDosComponentes1 } from './Pages/005-PrompsEOrganizacaoDosComponentes_parte_1';
 //import { OrganizacaoDosComponentes2 } from './Pages/006-PropsEOrganizacaoDosComponentes_parte_2';
-import { InputDeTexto } from './Pages/007-inputsDeTexto';
+//import { InputDeTexto } from './Pages/007-inputsDeTexto';
+import { Home } from './Pages/008-MigrandoParaReactHooks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    < InputDeTexto />
+    < Home />
   </React.StrictMode>
 );

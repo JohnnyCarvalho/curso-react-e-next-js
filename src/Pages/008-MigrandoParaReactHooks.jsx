@@ -1,13 +1,21 @@
+/**
+ * @author Johnny Carvalho
+ * 
+ * Nessa aula iremos migrar nosso projeto para utilização de
+ * Hooks, essa aula é para termos uma noção do que é Hooks e em 
+ * qual momento sua utilização se faz necessária.
+ */
+
 import '../Styles/App.css';
 
 import { Component } from 'react';
 
-import { loadPosts } from '../Utils/load-posts'
-import { Posts } from '../components/Posts/index.jsx'
+import { loadPosts } from '../Utils/load-posts';
+import { Posts } from '../components/Posts/index.jsx';
 import { Button } from '../components/Button';
 import { TextInput } from '../components/Imput';
 
-export class InputDeTexto extends Component {
+export class Home extends Component {
 
     state = {
         posts: [],
@@ -28,7 +36,7 @@ export class InputDeTexto extends Component {
         this.setState({
             posts: postsAndPhotos.slice(page, postsPerPage),
             allPosts: postsAndPhotos
-        })
+        });
     }
 
     loadMorePosts = () => {
@@ -43,12 +51,12 @@ export class InputDeTexto extends Component {
         const nextPosts = allPosts.slice(nextPage, nextPage + postsPerPage)
         posts.push(...nextPosts);
 
-        this.setState({ posts, page: nextPage })
+        this.setState({ posts, page: nextPage });
     }
 
     handleChange = (e) => {
         const { value } = e.target;
-        this.setState({ searchValue: value })
+        this.setState({ searchValue: value });
     }
 
     render() {
@@ -57,12 +65,12 @@ export class InputDeTexto extends Component {
         const noMorePosts = page + postsPerPage >= allPosts.length;
 
         const filteredPosts = !!searchValue ?
-            allPosts.filter(post => {
-                return post.title.toLowerCase().includes(
-                    searchValue.toLowerCase()
-                );
-            })
-            : posts;
+        allPosts.filter(post => {
+            return post.title.toLowerCase().includes(
+                searchValue.toLowerCase()
+            );
+        })
+        : posts;
 
         return (
             <section className='container'>
@@ -70,12 +78,12 @@ export class InputDeTexto extends Component {
                 <div className='search-containner'>
                     {!!searchValue && (
                         <>
-                            <h1>Search value: {searchValue}</h1>
-                            <br />
+                            <h1>Search Value: {searchValue}</h1>
+                            <br></br>
                         </>
                     )}
-
-                    <TextInput searchValue={searchValue} handleChange={this.handleChange} />
+                    <TextInput searchValue={searchValue}
+                    handleChange={this.handleChange}/>
                 </div>
 
                 <div className='filter-containner'>
@@ -90,13 +98,12 @@ export class InputDeTexto extends Component {
                 <div className='button-containner'>
                     {!searchValue && (
                         <Button
-                            text="Load more posts"
+                            text="Load More Posts"
                             onClick={this.loadMorePosts}
-                            disabled={noMorePosts}
-                        />
+                            disabled={noMorePosts} />
                     )}
                 </div>
             </section>
-        )
+        );
     }
 }
