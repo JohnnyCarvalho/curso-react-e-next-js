@@ -5,7 +5,7 @@
  * Hooks, essa aula é para termos uma noção do que é Hooks e em 
  * qual momento sua utilização se faz necessária.
  */
- import { useCallback, useEffect, useState } from 'react';
+ import { useEffect, useState, useCallback } from 'react';
 
 import '../Styles/App.css';
 
